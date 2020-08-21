@@ -17,9 +17,21 @@
     }
   }
   .category {
-    padding: 30px;
     width: 270px;
-    background-color: white;
-    box-shadow: $box-shadow;
+    &_content {
+      background-color: white;
+      box-shadow: $box-shadow;
+      &_title {
+        padding-left: 15px;
+        font-size: 14px;
+        font-weight: bold;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid $color-border;
+      }
+      &_body {
+        padding: 15px;
+      }
+    }
   }
 }

@@ -73,14 +73,19 @@ function MyComponent() {
           </div>
         </div>
         <div className={styles.category}>
-          {menus && (
-            <Tree
-              showLine
-              defaultExpandAll
-              treeData={menus.value}
-              onSelect={onSelect}
-            />
-          )}
+          <div className={styles.category_content}>
+            <div className={styles.category_content_title}>目录</div>
+            <div className={styles.category_content_body}>
+              {menus && (
+                <Tree
+                  showLine
+                  defaultExpandAll
+                  treeData={menus.value}
+                  onSelect={onSelect}
+                />
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
