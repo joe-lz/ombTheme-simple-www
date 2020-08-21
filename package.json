@@ -1,0 +1,29 @@
+{
+  "name": "ombTheme-white-www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp --gulpfile=gulpfile.js watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joe-lz/ombTheme-white-www.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joe-lz/ombTheme-white-www/issues"
+  },
+  "homepage": "https://github.com/joe-lz/ombTheme-white-www#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2"
+  }
+}
