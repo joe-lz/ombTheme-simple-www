@@ -1,5 +1,5 @@
 {
-  "name": "ombTheme-white-www",
+  "name": "ombTheme-simple-www",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joe-lz/ombTheme-white-www.git"
+    "url": "git+https://github.com/joe-lz/ombTheme-simple-www.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joe-lz/ombTheme-white-www/issues"
+    "url": "https://github.com/joe-lz/ombTheme-simple-www/issues"
   },
-  "homepage": "https://github.com/joe-lz/ombTheme-white-www#readme",
+  "homepage": "https://github.com/joe-lz/ombTheme-simple-www#readme",
   "devDependencies": {
     "eslint": "^7.7.0",
     "eslint-config-standard": "^14.1.1",

@@ -1,1 +1,25 @@
 @import "~src/styles/variables.scss";
+
+.container {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  .content {
+    margin-right: 30px;
+    flex: 1;
+    .list {
+      overflow: hidden;
+      background-color: white;
+      box-shadow: $box-shadow;
+    }
+  }
+  .category {
+    padding: 30px;
+    width: 270px;
+    background-color: white;
+    box-shadow: $box-shadow;
+  }
+}
